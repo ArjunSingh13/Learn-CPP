@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LL">
+      <UniqueIdentifier>{e096780f-9289-488d-a17b-b8a7bfcc8350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ML">
+      <UniqueIdentifier>{c22f25f0-8ca7-4fed-a9d8-9f0e30ab4aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LL">
+      <UniqueIdentifier>{4a3a87ff-9dc1-46c8-b920-49ba7219f302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ML">
+      <UniqueIdentifier>{e2308854-1210-459b-a1b5-ac6d82ea0dfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\account.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\account1.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\account2.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\base.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\base1.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\console.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\player.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\player1.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\player2.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\player3.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\printable.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\1Constructor.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\2Inheritance.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\3Polymorphism.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\4SmartPtrs.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="LL\src\stl_container.cpp">
+      <Filter>Source Files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\5Stl.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\6Stl.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+    <ClCompile Include="ML\src\7Lambda.cpp">
+      <Filter>Source Files\ML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LL\inc\account.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\account1.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\account2.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\base.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\base1.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\console.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\define.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\player.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\player1.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\player2.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\player3.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\printable.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\1Constructor.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\2Inheritance.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\3Polymorphism.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\4SmartPtrs.hpp">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\stl_template.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="LL\inc\stl_container.h">
+      <Filter>Header Files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\5Stl.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\6Stl.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+    <ClInclude Include="ML\inc\7Lambda.h">
+      <Filter>Header Files\ML</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
